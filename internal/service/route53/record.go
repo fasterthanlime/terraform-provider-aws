@@ -117,6 +117,7 @@ func ResourceRecord() *schema.Resource {
 				ConflictsWith: []string{
 					"failover_routing_policy",
 					"geolocation_routing_policy",
+					"geoproximity_routing_policy",
 					"latency_routing_policy",
 					"multivalue_answer_routing_policy",
 					"weighted_routing_policy",
@@ -139,6 +140,7 @@ func ResourceRecord() *schema.Resource {
 				ConflictsWith: []string{
 					"cidr_routing_policy",
 					"geolocation_routing_policy",
+					"geoproximity_routing_policy",
 					"latency_routing_policy",
 					"multivalue_answer_routing_policy",
 					"weighted_routing_policy",
@@ -172,6 +174,7 @@ func ResourceRecord() *schema.Resource {
 				ConflictsWith: []string{
 					"cidr_routing_policy",
 					"failover_routing_policy",
+					"geoproximity_routing_policy",
 					"latency_routing_policy",
 					"multivalue_answer_routing_policy",
 					"weighted_routing_policy",
@@ -198,6 +201,7 @@ func ResourceRecord() *schema.Resource {
 					"cidr_routing_policy",
 					"failover_routing_policy",
 					"geolocation_routing_policy",
+					"geoproximity_routing_policy",
 					"multivalue_answer_routing_policy",
 					"weighted_routing_policy",
 				},
@@ -210,6 +214,7 @@ func ResourceRecord() *schema.Resource {
 					"cidr_routing_policy",
 					"failover_routing_policy",
 					"geolocation_routing_policy",
+					"geoproximity_routing_policy",
 					"latency_routing_policy",
 					"weighted_routing_policy",
 				},
@@ -264,6 +269,7 @@ func ResourceRecord() *schema.Resource {
 					"cidr_routing_policy",
 					"failover_routing_policy",
 					"geolocation_routing_policy",
+					"geoproximity_routing_policy",
 					"latency_routing_policy",
 					"multivalue_answer_routing_policy",
 				},
